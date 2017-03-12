@@ -7,7 +7,7 @@
         <title>Original Service</title>
         <link href="https://fonts.googleapis.com/css?family=Signika:600" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
         
     </head>
     <body>
