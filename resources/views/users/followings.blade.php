@@ -16,9 +16,7 @@
         <div class="col-xs-8">
             @include('users.commons.tab')
             
-            @if (count($posts) > 0)
-                @include('posts.posts', ['posts' => $posts])
-            @endif
+            @include('users.users', ['users' => $users])
         </div>
     </div>
 @endsection
